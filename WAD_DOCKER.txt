@@ -1,0 +1,14 @@
+WAD - Docker (Open Jdk) .,
+Isb-release -a
+sudo apt -get update sudo apt Install docker. io sudo useamod -aG docker #USER.
+Sudo docker Images
+sudo docker run -it-d openick. sudo docker images sudo docker ps
+sudo docker enec -it 'container id jshell
+jshell > System. out.printin (" Heu");
+Int a = 20;
+in+ b= 10;
+System. Out. pintin (a+b);
+int C = a+b;
+/exit
+sudo docker ps
+sudo docker stop 'container id'

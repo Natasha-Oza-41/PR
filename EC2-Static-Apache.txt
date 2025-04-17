@@ -1,0 +1,51 @@
+Static  website :
+
+ssh -i "pem file path" ec2-user@"ip"
+sudo su -
+whoami
+exit
+whoami
+
+Go to free css - right click on download copy link address
+wget{{link address}
+ls
+unzip {file name}
+ls
+sudo yum install -y httpd
+sudo systemctl start httpd
+sudo systemctl status httpd 
+
+sudo mv file name /var/www/html
+sudo su -
+cd /var/www/html
+ll
+mv file name/* .
+systemctl restart httpd 
+
+Apache Web server :
+
+ssh -i "pem file path" ec2-user@"ip"
+sudo su -
+whoami
+exit
+whoami 
+
+pwd
+sudo yum install -y httpd
+
+sudo -i 
+pwd 
+
+mkdir -p /var/www/html
+ls /var/www/html
+
+chown -R ec2-user:ec2-user /var/www/html
+chown -R 755 /var/www/html
+cd /var/www/html
+
+ls
+cat > index.html
+"Message" (cntrl+D)
+
+Systemctl start httpd
+Systemctl enable httpd
