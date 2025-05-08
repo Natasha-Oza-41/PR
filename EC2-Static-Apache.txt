@@ -1,10 +1,6 @@
-Static  website :
+# # Static  website :
 
 ssh -i "pem file path" ec2-user@"ip"
-sudo su -
-whoami
-exit
-whoami
 
 Go to free css - right click on download copy link address
 wget{{link address}
@@ -18,12 +14,27 @@ sudo systemctl status httpd
 sudo mv file name /var/www/html
 sudo su -
 cd /var/www/html
-ll
+ls
 mv file name/* .
 systemctl restart httpd 
 
+----------------------------------------------------------------------------------------------------------------------------
+# # Upload website through git hub : 
 
+sudo yum install git -y
+sudo git clone "Repository link"
+ls
+sudo cp Repository_name/file-name /var/www/html
+systemctl restart httpd 
 
+----------------------------------------------------------------------------------------------------------------------------
+# # Run this if it doesnt work :  
+
+cd /var/www/html
+sudo mv file_name new_name
+sudo systemctl restart httpd 
+
+----------------------------------------------------------------------------------------------------------------------------
 
 # # Apache Web server :
 
