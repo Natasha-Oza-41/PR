@@ -1,0 +1,10 @@
+mkdir Part-A
+cd Part-A
+git --version
+git init 
+git add .
+git Status
+git remote add origin 'URL Repository'
+git commit -m "Initital Commit"
+git status
+git push -u origin master
