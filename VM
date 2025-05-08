@@ -1,0 +1,24 @@
+# create two folders .,
+then open git bash in thopse folders .
+
+# vagrant cloud - on browser ;
+
+edit file ;
+
+# run command :- 
+
+vagrant up 
+vagrant ssh 
+
+(in both VM1 , VM2)
+# # #
+# VM1 :- ls 
+vi abc.txt { i = insert , "Message" (esc) :wq (enter)} 
+ls
+cat abc.txt
+
+# VM2 :- ifconfig { copy inet addrr }
+
+# VM1 :- scp abc.txt vagrant@'ip':/home/vagrant
+# VM2 :- ls
+cat abc.txt
