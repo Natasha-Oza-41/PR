@@ -39,10 +39,7 @@ sudo systemctl restart httpd
 # # Apache Web server :
 
 ssh -i "pem file path" ec2-user@"ip"
-sudo su -
-whoami
-exit
-whoami 
+ 
 
 pwd
 sudo yum install -y httpd
