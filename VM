@@ -7,8 +7,8 @@ then open git bash in thopse folders .
 
 # run command :- 
 
-vagrant up 
-vagrant ssh 
+vagrant up                         #Boots and sets up the VM using VirtualBox or other provider.
+vagrant ssh                        #Lets you enter and control the VM's terminal (like remote login).
 
 (in both VM1 , VM2)
 
@@ -21,6 +21,6 @@ cat abc.txt
 
 # VM2 :- ifconfig { copy inet addrr or addr from your edited file }
 
-# VM1 :- scp abc.txt vagrant@'ip':/home/vagrant
+# VM1 :- scp abc.txt vagrant@'ip':/home/vagrant            #	Secure file transfer between VMs
 # VM2 :- ls
 cat abc.txt
