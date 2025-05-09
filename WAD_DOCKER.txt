@@ -9,11 +9,13 @@ sudo docker run -it-d openjdk
 sudo docker images 
 sudo docker ps
 sudo docker exec -it 'container id' jshell
+
 jshell > System. out.println (" Hello .");
 Int a = 20;
 in+ b= 10;
-System. Out. pintln (int c);
 int C = a+b;
+System. Out. pintln (int c);
 /exit
+
 sudo docker ps
 sudo docker stop 'container id'
