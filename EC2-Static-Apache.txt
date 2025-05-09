@@ -19,20 +19,10 @@ mv file name/* .
 systemctl restart httpd 
 
 ----------------------------------------------------------------------------------------------------------------------------
-# # Upload website through git hub : 
 
-sudo yum install git -y
-sudo git clone "Repository link"
-ls
-sudo cp Repository_name/file-name /var/www/html
-systemctl restart httpd 
 
 ----------------------------------------------------------------------------------------------------------------------------
-# # Run this if it doesnt work :  
 
-cd /var/www/html
-sudo mv file_name new_name
-sudo systemctl restart httpd 
 
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -60,3 +50,23 @@ cat > index.html
 
 Systemctl start httpd
 Systemctl enable httpd
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+# # Upload website through git hub : 
+
+sudo yum install git -y
+sudo git clone "Repository link"
+ls
+sudo cp Repository_name/file-name /var/www/html
+systemctl restart httpd 
+
+----------------------------------------------------------------------------------------------------------------------------
+
+# # Run this if it doesnt work :  
+
+cd /var/www/html
+sudo mv file_name new_name
+sudo systemctl restart httpd 
