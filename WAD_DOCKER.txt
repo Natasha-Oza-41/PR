@@ -1,4 +1,4 @@
-WAD - Docker (Open Jdk) .,
+WAD - Docker (Open Jdk) ., #Ubuntu
 
 Isb_release -a
 sudo apt -get update 
